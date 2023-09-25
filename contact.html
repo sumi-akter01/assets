@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Project | Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/img3.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+   
+    <style>
+     main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .contact {
+        max-width: 1000px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        padding: 30px;
+        flex-direction: column;
+        margin: 30px 0;
+      }
+      .contact-img {
+        width: 100%;
+      }
+
+      .contact-form {
+        width: 100%;
+      }
+      .contact-form input[type="text"],
+      .contact-form input[type="email"] {
+        width: 100%;
+        margin: 8px 0;
+        padding: 8px 30px;
+      }
+      .contact-form textarea {
+        width: 100%;
+      }
+
+      .contact-form input[type="submit"] {
+        border: none;
+        padding: 8px 30px;
+        background-color: rgb(31, 203, 194);
+        color: white;
+        margin: 5px 0;
+        border-radius: 2px;
+      }
+
+      @media (min-width: 768px) {
+        .contact {
+            flex-direction: row;
+        }
+        .contact-img {
+        width: 50%;
+      }
+
+      .contact-form {
+        width: 50%;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="name">
+                    <a href="index.html">ShoP <span>NoW</span></a>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+       
+    </header>
+
+
+<!-- MAIN -->
+<main>
+    <div class="flex-container contact">
+        <div class="contact-img">
+         <img src="img/customer.jpg" alt="" width="100%">
+        </div>
+        <div class="contact-form">
+          <h1>Get in touch</h1>
+          <form action="">
+            <input type="text" placeholder="Enter Name" required />
+            <input type="email" placeholder="Enter Email" required />
+            <textarea id="" cols="30" rows="10">Enter Message</textarea>
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+</main>
+
+
+<!-- -----------FOOTER----------- -->
+<footer>
+    <div class="footer-container">
+      <div class="social-icon">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+        <a href=""><i class="fa-brands fa-square-pinterest"></i></a>
+        <a href=""><i class="fa-brands fa-google"></i></a>
+      </div>
+
+      <div class="footer-id">
+        <ul>
+          <li><a href="">Products</a></li>
+          <li><a href="">Shopping</a></li>
+          <li><a href="">Brands</a></li>
+          <li><a href="">Show-room</a></li>
+          <li><a href="">Address</a></li>
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>Copyrights &copy; E-learning. | Designed by Rumi Akter Sumi</p>
+      </div>
+    </div>
+
+   </footer>
+    
+    
+</body>
+</html>
